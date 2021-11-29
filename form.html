@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="fa/css/all.min.css">
+</head>
+
+<body>
+    <div class="container bg-light mt-5">
+        <div class="row p-3">
+            <div class="col-md-6 mb-5">
+                <div class="card card-body bg-white shadow">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="">Name</label>
+                            <input id="name" class="form-control" type="text" placeholder="what's your name?">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Email</label>
+                            <input id="email" class="form-control" type="email">
+                        </div>
+                        <button class="btn btn-danger" onclick="register()" type="button">Register</button>
+                    </form>
+                </div>
+            </div>
+            <div id="taxi" class="col-md-6 ">
+                <div class="media">
+                    <i class="fab fa-uber fa-2x text-danger mr-4 "></i>
+                    <div class="media-body">
+                        <h3 class="font-weight-bold">Uber Services</h3>
+                        <p>Get to your destination faster</p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="form.js"></script>
+</body>
+
+</html>
